@@ -1,0 +1,21 @@
+{
+  "name": "repository-settings",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Settings and configuration files that can be used to maintain consistency in repositories.",
+  "homepage": "https://github.com/blwatkins/repository-settings#readme",
+  "bugs": {
+    "url": "https://github.com/blwatkins/repository-settings/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blwatkins/repository-settings.git"
+  },
+  "license": "MIT",
+  "author": "brittni watkins",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
