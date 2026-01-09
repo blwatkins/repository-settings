@@ -14,7 +14,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./javascript
+    working-directory: javascript
 
 jobs:
   build:
@@ -30,6 +30,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
+        with:
+          path: javascript
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v6
         with:
