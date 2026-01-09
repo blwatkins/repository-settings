@@ -12,6 +12,10 @@ on:
     branches:
       - "main"
 
+defaults:
+  run:
+    working-directory: ./javascript
+
 jobs:
   build:
     permissions:
@@ -31,6 +35,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: cd ./javascript
       - run: npm ci
       - run: npm run lint
