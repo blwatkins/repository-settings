@@ -153,12 +153,12 @@ export default [
             'n/no-missing-import': 'error',
 
             'n/no-unsupported-features/es-syntax': ['error', {
-                version: '>=20.0.0',
+                version: '>=20.19.0',
                 ignores: []
             }],
 
             'n/no-unsupported-features/node-builtins': ['error', {
-                version: '>=20.0.0',
+                version: '>=20.19.0',
                 ignores: []
             }]
         }
