@@ -22,7 +22,7 @@
 
 import eslint from '@eslint/js';
 
-import es_x from 'eslint-plugin-es-x';
+import esX from 'eslint-plugin-es-x';
 import node from 'eslint-plugin-n';
 import security from 'eslint-plugin-security';
 
@@ -30,7 +30,7 @@ import stylistic from '@stylistic/eslint-plugin';
 
 export default [
     eslint.configs.recommended,
-    es_x.configs['flat/restrict-to-es2023'],
+    esX.configs['flat/restrict-to-es2023'],
     node.configs['flat/recommended'],
     security.configs.recommended,
     stylistic.configs['recommended'],
